@@ -2,10 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title>Fmap</title>
+    <title>Fmap</title>
+    <style>
+        html, body { height: 100% }
+        .marker {
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-	<div id="map" style="width:100%;height:1000px;"></div>
+	<div id="map" style="width:100%;height:100%"></div>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=07b6bdcee1c750954ebd2c0efacd3ce2"></script>
 	<script>
 		var container = document.getElementById('map');
@@ -1087,10 +1093,5 @@
             }
         }
     </script>
-    <style>
-        .marker {
-            padding: 5px;
-        }
-    </style>
 </body>
 </html>
